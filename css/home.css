@@ -1,17 +1,23 @@
 body{
     text-align: center;
-    background-color: rgba(254, 249, 225, 1);
+    background-color: #FFF3E0;
+    display: block;
  
     
 }
 .banner{
     width: 100uw;
+   
+    
 }
 .banner img{
+    max-height: 400px;
     width: 100%;
+    object-fit: cover;
 }
 
 .containerBanner{
+    border: black solid 1px;
     display: flex;
     background-color: rgba(229, 208, 172, 1);
     width: 50%;
@@ -20,7 +26,8 @@ body{
     border-radius: 5px;
     margin: 20px auto;
     margin-top: 50px;
-}   
+    
+}  
 .containerBanner img{
     width: 330px;
     height: 330px;
@@ -42,4 +49,5 @@ body{
 
 .comprar:hover{
     background-color:  #8b3f3a
+    
 }

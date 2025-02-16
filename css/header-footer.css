@@ -36,7 +36,7 @@ nav a{
     display: flex;
     justify-content: center;
     padding: 10px;
-    background: red;
+    background: rgba(163, 29, 29, 1);
     color: white;
     position: relative;
     z-index: 10;
