@@ -4,6 +4,13 @@ body{
  
     
 }
+.banner{
+    width: 100uw;
+}
+.banner img{
+    width: 100%;
+}
+
 .containerBanner{
     display: flex;
     background-color: rgba(229, 208, 172, 1);
