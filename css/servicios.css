@@ -1,33 +1,33 @@
-nav{
-    width: 1200;
+main{
+    width: 1200px;
+    margin: 0 auto;
 }
 .tituloServicios{
     text-align: center;
     font-size: 350%;
 }
 
-nav .DefinicionServicio{
-    float:inline-start;
-}
+
+
 
 .DefinicionServicio{
-
+    margin-top: 50px;
     display: flex;
-    margin: 130px 100px 0px 100px;
     align-items: center;
     text-align: center;
-    width: 1200;
+    width: 1200px;
     font-size: x-large;
   
     
 
 }
 .DefinicionServicio img{
-    height: 400px;;
+    height: 300ox;;
 }
 .boton{
     float: right;
-    margin: auto 100px 80px;
+    margin-bottom: 50px;
+    
     text-decoration: none;
     color: black;
     border-radius: 5px;
@@ -38,4 +38,16 @@ nav .DefinicionServicio{
 .boton:hover{
     background-color: rgb(255, 137, 2);;
 }
+
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    height: 350px;
+    margin: 0 400px;
+    background-color: rgba(232, 179, 179, 1);
+    
+}
+
 
