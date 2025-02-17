@@ -68,7 +68,7 @@ nav a{
     /*display: none;*/
     z-index: -1;
     /*z-index: 100;*/
-    min-width: 150px;
+    min-width: 200px;
     background: brown;
     opacity: 0;
     visibility: hidden;
