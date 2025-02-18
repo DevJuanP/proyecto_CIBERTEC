@@ -65,7 +65,7 @@ main{
     z-index: 100;
     box-shadow: 0 0 20px rgb(0,0,0,0.3);
     display: none;
-    
+  
     
 }
 /*fondo de pantalla en alert*/
@@ -79,6 +79,7 @@ main{
     background-color: rgb(0, 0, 0);
     z-index: 99;
     display: none;
+ 
 }
 /*boton de alerta*/
 #cerrarAlert{
