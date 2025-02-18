@@ -21,10 +21,17 @@ main hr{
     width: 340px;
     overflow: hidden;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img-product img{
-    object-fit: cover;
-    height: 100%;
+    /*object-fit: cover;*/
+    object-position: center;
+   
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }
 .contenido{
     /*border: 1px solid blue;*/
