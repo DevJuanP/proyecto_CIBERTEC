@@ -13,8 +13,7 @@ function CerrarAlerta(){
     document.getElementById("fondoPantalla").style.display ="none";
     document.getElementById("estiloDeAlerta").style.display="none";
 
-    //elimina el fondo difuminado
-    document.body.classList.remove("fondoBlur")
+    
 
 }
 
@@ -28,3 +27,4 @@ document.getElementById("formulario").addEventListener("submit", function(agenda
 })
 
 document.getElementById("cerrarAlert").addEventListener("click",CerrarAlerta)
+window.alert=function(){};
