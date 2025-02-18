@@ -108,8 +108,8 @@
         <H1 style="text-align: center; font-size: 280%">
             Agenda tu cita
         </H1>
-        <div class="form1">
-         <form action="agendar cita">
+        <div class="form1" >
+         <form action="" id="formulario">
             <label for=""  style="font-size: x-large; margin-left: 6px;">Nombres</label>
             <input type="text"><br><br>
             <label for="" style="font-size: x-large;">Apellidos</label>
@@ -121,8 +121,13 @@
             <input type="submit" style="margin-left: 219px; "></input>
             
          </form>
+                 <div id="fondoPantalla"></div>
+                 <div id="estiloDeAlerta" >
+                  <p>Cita agendada con éxito</p>
+                  <button id="cerrarAlert">Cerrar alerta</button>
+         </div>
         </div>    
-
+        
     </main>
     <footer>
         <div class="footer-top">
@@ -155,5 +160,6 @@
            <h3>SERVITEC</h3>
         </div>
    </footer>
+   <script src="/js/formulario.js"></script>
 </body>
 </html>
